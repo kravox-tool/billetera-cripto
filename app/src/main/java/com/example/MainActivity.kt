@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity() {
         setContentView(webView)
         ViewCompat.setOnApplyWindowInsetsListener(webView) { view, windowInsets ->
             val insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars())
-            view.setPadding(0, 0, 0, 0)
+            view.setPadding(0, insets.top, 0, insets.bottom)
             windowInsets
         }
 

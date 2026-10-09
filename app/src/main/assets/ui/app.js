@@ -319,6 +319,7 @@ function updateEstimatedUsd() {
 }
 
 function openCardModal(card = null) {
+  const modal = document.getElementById('cardModal');
   document.getElementById('cardEditId').value = card ? card.id : '';
   document.getElementById('modalTitle').textContent = card ? 'Editar Tarjeta Cripto' : 'Nueva Tarjeta Cripto';
   document.getElementById('cardName').value = card ? card.name : '';
@@ -332,10 +333,10 @@ function openCardModal(card = null) {
   } else {
     selectCrypto('BTC');
     document.getElementById('detectionBanner').classList.remove('visible');
+    document.getElementById('estimatedUsdLabel').textContent = '';
   }
 
-  updateEstimatedUsd();
-  document.getElementById('cardModal').classList.add('active');
+  modal.classList.add('active');
 }
 
 function closeModal() {

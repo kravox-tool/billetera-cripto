@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan para solucionar el solapamiento con la barra de estado del sistema Android mediante insets automáticos y optimizar la apertura instantánea a 120 FPS del menú de creación de tarjetas sin desenfoques pesados de GPU.",
+  "updatedAt":  "2026-10-09T13:01:31.790641281Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
