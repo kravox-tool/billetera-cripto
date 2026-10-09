@@ -1,0 +1,6 @@
+{
+  "name": "Billetera Cripto",
+  "description": "Gestor inteligente de tarjetas y direcciones cripto con detección automática de red y generación de códigos QR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
